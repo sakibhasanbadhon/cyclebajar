@@ -1,0 +1,157 @@
+.navbar{
+	
+	background-image: linear-gradient(to right, #17ba8e,#5f1782)!important;
+	
+}
+
+.navbar .nav-item .nav-link{
+	color: white!important;
+	font-weight: 600;
+}
+
+.navbar .nav-item .nav-link.active{
+	background: #5f1782;
+}
+
+
+/* banner section start */
+
+
+#banner{
+	background-image: linear-gradient(to right, #17ba8e,#5f1782)!important;
+	color: white;
+	margin-top: 4.5rem!important;
+}
+
+#banner a img{
+	width: 50px;
+	margin-right: 10px;
+}
+
+#banner a {
+	color: white;
+	text-decoration: none;
+}
+
+.bannerright{
+	margin-left: 30%;
+}
+
+.wave-banner{
+	width: 100%;
+}
+
+
+.title{text-align: center;}
+
+.title:after{
+	content: "";
+	display: block;
+	background: #5f1782;
+	height: 5px;
+	width: 200px;
+	margin: auto;
+	transform: translateY(20px);
+
+
+}
+.play img{transition: 0.5s;}
+.play img:hover{
+	height: 52px;
+}
+
+.play span{transition: 0.5s;}
+.play span:hover{
+	color: skyblue;
+	padding-left: 10px;
+}
+
+/* service section */
+
+.service-box{transform: translateX(20px);}
+
+.service-box img{
+	width: 100px;
+	transform: translateX(50px);
+    border: 4px solid #ddd;
+    margin-bottom: 1em;
+
+
+}
+
+.service-button{
+	background-image: linear-gradient(to right, #17ba8e,#5f1782)!important;
+	color: white;
+	padding: 5px 15px;
+	border: none;
+	border-radius:20px;
+
+
+}
+
+.service-button:hover{
+	background-image: linear-gradient(to right, #5f1782,#17ba8e)!important;
+}
+
+
+
+/* about section start  */
+
+#about{
+	background: #dddddd75;
+}
+
+
+/* Client section */
+
+
+.user-details img{
+	width: 70px;
+	height: 70px;
+	margin-right: 15px;
+}
+
+
+.user-details{
+	border-left: 4px solid #5f1782 ;
+}
+
+
+
+
+/* Social media */
+
+
+#social-media img{
+	width: 60px;
+	transition: 0.5s;
+}
+
+
+
+#social-media img:hover{
+	transform: translateY(-15px);
+	
+}
+
+#social-media{
+	background:#f8f9fa;
+
+	
+}
+
+/* footer Section */
+
+#footer{
+	background-image: linear-gradient(to right, #17ba8e,#5f1782)!important;
+}
+
+.footer-box i{
+	margin-right: 10px;
+	background: #17ba8e;
+	width:30px;
+	height: 30px;
+	padding: 6px;
+	border-radius: 7px;
+}
+
